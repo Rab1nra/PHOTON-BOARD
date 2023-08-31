@@ -42,7 +42,7 @@ const int httpsPort = 443;
 
 WiFiClientSecure client; //--> Create a WiFiClientSecure object.
 
-String GAS_ID = "AKfycbwkAkxcM0x2mY5fZGTYZqjRlnGIMhAG1UOj9BauQ7ZMY5JvTrA0jqt937Fq7-cG2KJ1_g"; //--> when you succesfulyl deploy you would get a link and in that link after script.google.com and beofre execute/ is your gasid
+String GAS_ID = "AKfycbwkAkxc0mx2mY5fZGTYZqjRlnGIMhAG1UOj9BauQ7ZMY5JvTrA0jqt937Fq7-cG2KJ1_g"; //--> when you succesfulyl deploy you would get a link and in that link after script.google.com and beofre execute/ is your gasid
 
 
 
