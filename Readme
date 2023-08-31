@@ -1,2 +1,15 @@
 This project is an effort to make a low power microcontroller circuit which is capable of sending data to a remote server , Google in this case , keeping all the power consumption to the lowest, and even have the functionality of showing data using an always on LCD screen. The circuit diagram has been shared , only a single , inexpensive  ESP 12F module has been used , along with a solar to power the circuit , although there are several esp boards out there , but this board has a lot of optimisation in power management , the pcb is single sided making it easier to replicate and code open sourced.
 
+DEPENDENCIES :Before uploading the code you would need to install certain libraries listed below:
+
+https://github.com/adafruit/Adafruit-GFX-Library
+https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
+This is the adafruit library for Nokia 5110 display module
+
+https://github.com/beegee-tokyo/DHTesp 
+This library is used since the conventional library poses some problem with esp boards , this works well 
+https://github.com/arduino-libraries/NTPClient
+Using to fetch time for updating the display
+
+Also do remember to install the esp core for arduino before proceeding , its pretty simple i’d leave a link to a tutorial 
+https://github.com/esp8266/Arduino
