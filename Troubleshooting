@@ -1,0 +1,11 @@
+Troubleshooting
+
+Well it's pretty much sure that your circuit is not working in the first go so , as per the saying "If your circuit works in the first go you're lucky", so I'm classifying the problems into parts here.
+Google sheets not working : well make sure you have run the code in the Google scripts after deployment. Well you can check whether it's working or not using a browser.
+Unable to program ESP:, it's showing error codes or garbage in serial monitor , well if this happens you first need to change the baud rate to 78600 and then check the monitor whether you are getting reset codes , and check which mode you are and which pins are not connected.
+This is a great tutorial by tiktronics on reset modes and boot codes:
+https://riktronics.wordpress.com/2017/10/02/esp8266-error-messages-and-exceptions-explained/
+
+Well if you have no idea where to start when troubleshooting , then first try to upload the blink sketch to check whether the eps is working or not , then we move on to the voltages and before soldering the esp solder the power components and check whether it is working or not , then move on to upload the sample stretch for the DHT and check whether it is working or not and if you wish to use other pins remember that gpio16 can’t be used as it is used for the purpose of wake up and there are several limitations for the gpio used i’ll link a tutorial for the explanation here.
+
+https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
