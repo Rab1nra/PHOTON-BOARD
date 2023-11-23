@@ -2,6 +2,17 @@ This project is an effort to make a low power microcontroller circuit which is c
 
 DEPENDENCIES :Before uploading the code you would need to install certain libraries listed below:
 
+Youtube tutorial:
+Documentation:
+https://docs.google.com/document/d/1lEGWb3utT_JZN0TgChwNjSBb5NLrSyyiZlqtbiTWxt8/edit?usp=drivesdk
+
+Software part:
+https://github.com/Rab1nra/PHOTON-BOARD/
+
+Demonstration video: 
+https://youtu.be/KWouoCwMi8o
+
+
 https://github.com/adafruit/Adafruit-GFX-Library
 https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
 This is the adafruit library for Nokia 5110 display module
